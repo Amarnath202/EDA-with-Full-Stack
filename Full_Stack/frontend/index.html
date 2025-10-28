@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroMart - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    .hero-section {
+        margin-top: 5px !important;
+        padding-top: 30px !important;
+    }
+    </style>
+    <link rel="stylesheet" href="css/berry-burst-colors.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1><i class="fas fa-leaf"></i> AgroMart</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="analytics.html" class="nav-link">Analytics</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <div class="user-actions">
+                    <button id="cartBtn" class="btn-cart" onclick="window.location.href='cart.html'">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cartCount" class="cart-count">0</span>
+                    </button>
+                    <div class="auth-buttons" id="authButtons">
+                        <button id="loginBtn" class="btn btn-outline" onclick="window.location.href='login.html'">Login</button>
+                        <button id="registerBtn" class="btn btn-primary" onclick="window.location.href='register.html'">Register</button>
+                    </div>
+                    <div class="user-menu" id="userMenu" style="display: none;">
+                        <button id="userBtn" class="btn-user">
+                            <i class="fas fa-user"></i>
+                            <span id="userName">User</span>
+                        </button>
+                        <div class="dropdown-menu" id="dropdownMenu">
+                            <a href="profile.html">Profile</a>
+                            <a href="orders.html">My Orders</a>
+                            <a href="vendor.html" id="vendorLink" style="display: none;">Vendor Dashboard</a>
+                            <a href="admin.html" id="adminLink" style="display: none;">Admin Dashboard</a>
+                            <a href="#" id="logoutBtn">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <section id="homePage" class="page active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1>Fresh & Healthy</h1>
+                    <h2>Fresh Vegetables, Fruits & Berries, Grains & Cereals, Organic Products, Dairy & Poultry</h2>
+                    <p>Discover nature's finest selection of fresh vegetables, fruits, grains, organic products, and dairy.</p>
+                    <button class="btn btn-primary btn-large" onclick="window.location.href='products.html'">
+                        Shop Now <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-carousel">
+                        <img id="heroImg" src="./img/Fresh Vegetables.jpg" alt="Fresh Fruits" style="width:100%;border-radius:20px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-section">
+                <div class="container">
+                    <h2>Why Choose AgroMart?</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <i class="fas fa-leaf"></i>
+                            <h3>100% Organic</h3>
+                            <p>All our products are certified organic and free from harmful chemicals</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-shipping-fast"></i>
+                            <h3>Fast Delivery</h3>
+                            <p>Get your fresh products delivered to your doorstep within 24 hours</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-medal"></i>
+                            <h3>Premium Quality</h3>
+                            <p>We source only the finest quality vegetables, fruits, grains, and dairy from trusted vendors</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-heart"></i>
+                            <h3>Healthy Living</h3>
+                            <p>Promote a healthy lifestyle with our nutritious and delicious products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories-section">
+                <div class="container">
+                    <h2>Shop by Category</h2>
+                    <div class="categories-grid">
+                        <div class="category-card" onclick="window.location.href='products.html?category=fresh-vegetables'">
+                            <img src="./img/Fresh Vegetables.jpg" alt="Fresh Vegetables">
+                            <div class="category-content">
+                                <h3>Fresh Vegetables</h3>
+                                <p>Fresh and healthy vegetables</p>
+                            </div>
+                        </div>
+                        <div class="category-card" onclick="window.location.href='products.html?category=fruits-berries'">
+                            <img src="./img/Fruits & Berries.jpg" alt="Fruits & Berries">
+                            <div class="category-content">
+                                <h3>Fruits & Berries</h3>
+                                <p>Seasonal fruits and berries</p>
+                            </div>
+                        </div>
+                        <div class="category-card" onclick="window.location.href='products.html?category=grains-cereals'">
+                            <img src="./img/Grains & Cereals.jpg" alt="Grains & Cereals">
+                            <div class="category-content">
+                                <h3>Grains & Cereals</h3>
+                                <p>Whole grains and cereals</p>
+                            </div>
+                        </div>
+                        <div class="category-card" onclick="window.location.href='products.html?category=organic-products'">
+                            <img src="./img/Organic Products.jpg" alt="Organic Products">
+                            <div class="category-content">
+                                <h3>Organic Products</h3>
+                                <p>Certified organic products</p>
+                            </div>
+                        </div>
+                        <div class="category-card" onclick="window.location.href='products.html?category=dairy-poultry'">
+                            <img src="./img/Dairy & Poultry.jpg" alt="Dairy & Poultry">
+                            <div class="category-content">
+                                <h3>Dairy & Poultry</h3>
+                                <p>Fresh dairy and poultry products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AgroMart</h3>
+                    <p>“From our fields to your hands, nature’s bounty, fresh and pure.” 🌱</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                         <li><a href="analytics.html">Analytics</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="products.html?category=fresh-vegetables">Fresh Vegetables</a></li>
+                        <li><a href="products.html?category=fruits-berries">Fruits & Berries</a></li>
+                        <li><a href="products.html?category=grains-cereals">Grains & Cereals</a></li>
+                        <li><a href="products.html?category=organic-products">Organic Products</a></li>
+                        <li><a href="products.html?category=dairy-poultry">Dairy & Poultry</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AgroMart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+    // Hero image carousel logic
+    const heroImages = [
+        './img/Fresh Vegetables.jpg',
+        './img/Fruits & Berries.jpg',
+        './img/Grains & Cereals.jpg',
+        './img/Organic Products.jpg',
+        './img/Dairy & Poultry.jpg'
+    ];
+    let heroIndex = 0;
+    function showNextHeroImage() {
+        heroIndex = (heroIndex + 1) % heroImages.length;
+        document.getElementById('heroImg').src = heroImages[heroIndex];
+    }
+    setInterval(showNextHeroImage, 15000);
+    </script>
+</body>
+</html>

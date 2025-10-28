@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power BI Visualizations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f6f9;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .button-container {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      background: #0078d4;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #005a9e;
+    }
+    iframe {
+      display: none;
+      width: 90%;
+      height: 600px;
+      border: none;
+      margin-top: 20px;
+    }
+    iframe.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Power BI Interactive Dashboard</h1>
+  
+  <div class="button-container">
+    <button onclick="showPage(1)">Visualization 1</button>
+    <button onclick="showPage(2)">Visualization 2</button>
+    <button onclick="showPage(3)">Visualization 3</button>
+    <button onclick="showPage(4)">Visualization 4</button>
+    <button onclick="showPage(5)">Visualization 5</button>
+    <button onclick="showPage(6)">Visualization 6</button>
+  </div>
+
+  <!-- All iframes -->
+  <iframe id="page1" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=4920ee1ca5ad829493dd"></iframe>
+  
+  <iframe id="page2" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=09d8b519df497a475225"></iframe>
+  
+  <iframe id="page3" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=5acc16741b05e5035908"></iframe>
+  
+  <iframe id="page4" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=fa51103457a8acf3b496"></iframe>
+  
+  <iframe id="page5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=382a3aaf1a599bf8204f"></iframe>
+  
+  <iframe id="page6" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=94645965477b3bf5a4ad"></iframe>
+
+  <script>
+    function showPage(pageNumber) {
+      // Hide all iframes
+      const iframes = document.querySelectorAll("iframe");
+      iframes.forEach(iframe => iframe.classList.remove("active"));
+
+      // Show the selected iframe
+      document.getElementById("page" + pageNumber).classList.add("active");
+    }
+
+    // Show page 1 by default
+    showPage(1);
+  </script>
+</body>
+</html>

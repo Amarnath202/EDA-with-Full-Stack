@@ -1,0 +1,26 @@
+Link you can send in email
+
+https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9
+
+HTML to paste on a website
+all the pages in one frame
+<iframe title="EDA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+page 1
+<iframe title="EDA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=4920ee1ca5ad829493dd" frameborder="0" allowFullScreen="true"></iframe>
+
+page 2
+<iframe title="EDA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=09d8b519df497a475225" frameborder="0" allowFullScreen="true"></iframe>
+
+
+page 3
+<iframe title="EDA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=5acc16741b05e5035908" frameborder="0" allowFullScreen="true"></iframe>
+
+page 4
+<iframe title="EDA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=fa51103457a8acf3b496" frameborder="0" allowFullScreen="true"></iframe>
+
+page 5
+<iframe title="EDA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=382a3aaf1a599bf8204f" frameborder="0" allowFullScreen="true"></iframe>
+
+page 6
+<iframe title="EDA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTAzMDI4Y2EtMGRhYy00ZjYwLTg5MGMtODIyODNjMDM2MDA0IiwidCI6IjZiOGI4Mjk2LWJkZmYtNGFkOC05M2FkLTg0YmNiZjM4NDJmNSJ9&pageName=94645965477b3bf5a4ad" frameborder="0" allowFullScreen="true"></iframe>
