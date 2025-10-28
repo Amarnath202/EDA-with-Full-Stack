@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Crop Price Prediction Dashboard
 
 🌾 A full-stack web application that combines **AI-powered crop price prediction** with **interactive data visualizations** for farmers and agribusiness stakeholders. The project uses **Python (FastAPI)** for the backend and **React** for the frontend, integrating **Power BI dashboards** for advanced insights.
@@ -91,3 +92,7 @@ Navigate to frontend folder:
 
 Start  development server:
                 http-server
+=======
+# EDA-with-Full-Stack
+A comprehensive agriculture analytics and e-commerce platform for farmers. It visualizes crop data using Power BI and uses machine learning to predict crop prices. The system also enables farmers to buy and sell products online with real-time insights.
+>>>>>>> a169e75cc4c8d9665559fce31002bf69dc0d71dd
