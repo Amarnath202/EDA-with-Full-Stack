@@ -92,7 +92,3 @@ Navigate to frontend folder:
 
 Start  development server:
                 http-server
-=======
-# EDA-with-Full-Stack
-A comprehensive agriculture analytics and e-commerce platform for farmers. It visualizes crop data using Power BI and uses machine learning to predict crop prices. The system also enables farmers to buy and sell products online with real-time insights.
->>>>>>> a169e75cc4c8d9665559fce31002bf69dc0d71dd
